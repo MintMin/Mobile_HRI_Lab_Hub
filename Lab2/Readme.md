@@ -68,11 +68,11 @@ Following are the activities being considered. These are elaborated in the sketc
 \*\***What issues or opportunties arise from the site and activities?**\*\*
 - Multiple robots are needed at the same location to provide help to multiple people or groups at the same time
 - It may be hard for people to find the robot(especially visitors & travelers in our xxxx)
-People might not be used to it and might not like it
-It is gentle and might get pushed around
-It will be hard to map out the places.
-Site will need permissions to allow a moving robot
-The robot might trip people/ have to program it to identify humans
+- People might not be used to it and might not like it
+- It is gentle and might get pushed around
+- It will be hard to map out the places.
+- Site will need permissions to allow a moving robot
+- The robot might trip people/ have to program it to identify humans
 
 
 ## Part C. Costume the robot
@@ -85,7 +85,10 @@ Pick one of the custumes and make it with paper or cardboard or any other materi
 
 \*\***Include sketches of what your robot might look like here.**\*\*
 
+
 \*\***Include photos of your custumed robot here.**\*\*
+![image2](https://user-images.githubusercontent.com/32082801/218637084-3700e782-4e54-4912-aa16-05b9e3b52c89.jpg)![image3](https://user-images.githubusercontent.com/32082801/218637108-f519db50-56e0-426e-a57f-e2ba2771002f.jpg)
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the robot to look?**\*\*
 
@@ -118,4 +121,5 @@ Labs are due on Tuesdays before class. Make sure this page is linked to on your 
 2. Reflections on the process
 3. Video sketch of 1 prototyped interactions with the costumed device
 4. Submit the items above in the lab2 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
+
 
