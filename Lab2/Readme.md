@@ -60,8 +60,20 @@ What activities are going on in that space? What activity is the robot going to 
 ![sites](https://user-images.githubusercontent.com/32082801/218636148-3e348725-e8a6-4924-9ae6-692cdbbf3730.jpg)
 
 \*\***Document the activities being considered.**\*\*
+Following are the activities being considered. These are elaborated in the sketch above.
+1. At an airport. This robot could be an escort with your flight details and could help navigate you to the right terminus/ gate.
+2. At a train station - similar to the airport, this will escort the user to their destination.
+3. At a zoo - this escort robot will take you around the zoo and make sure you do not miss your favorite animals at the zoo.
 
 \*\***What issues or opportunties arise from the site and activities?**\*\*
+- Multiple robots are needed at the same location to provide help to multiple people or groups at the same time
+- It may be hard for people to find the robot(especially visitors & travelers in our xxxx)
+People might not be used to it and might not like it
+It is gentle and might get pushed around
+It will be hard to map out the places.
+Site will need permissions to allow a moving robot
+The robot might trip people/ have to program it to identify humans
+
 
 ## Part C. Costume the robot
 
