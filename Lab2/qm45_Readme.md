@@ -99,7 +99,7 @@ At this time we have no concerns about the robot’s design other than that the 
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the robot while someone interacts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-HERE!!!!!!!
+https://drive.google.com/file/d/1zxmLVg2YXFsXirbeZGBnc7qJEeJ_3ALP/view?usp=sharing
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -124,6 +124,8 @@ Labs are due on Tuesdays before class. Make sure this page is linked to on your 
 - Setup video: https://drive.google.com/file/d/1R9UWaUHislP9bLnliMLGREI-fNlsQ5Vy/view?usp=sharing
 - Sketches of costumes in other settings: 
 ![IMG_5089](https://user-images.githubusercontent.com/32082801/218640866-b95d4035-6743-4c5a-b31c-7e822a0a54e4.jpg)
+- Exploing more functionaloties of robots:  
+https://drive.google.com/file/d/1MVAqKaaO4bAboVxb-JKGskORjWZewCR7/view?usp=sharing
 
 ### Again, deliverables for this lab are: 
 
