@@ -1,5 +1,9 @@
 # Then Prototype the Robot
-**List the names and NetID for your partners here.**
+**List the names and NetID for your partners here.**  
+Ananya Ganesh ag2227  
+Qianti Min qm45  
+Calvin Tirrell cat248  
+Jonah Brucker-Cohen jb2662  
 
 This week's lab is a continuation of the previous week. We explore the role of both *siting*--the location and activity--in interaction, as well as the *form and appearance* of the robot in the interaction.
 
@@ -13,10 +17,6 @@ This week's lab is a continuation of the previous week. We explore the role of b
 4. Smart Phone -- The main required feature is that the phone needs to have a browser and display a webpage.
 5. **Found objects and materials** -- You will have to costume your CloneBot so that it fits in the intended setting. These materials can include doll clothes, a paper lantern, a bottle, human clothes, a pillow case, etc. Be creative! We have fabric, just ask!
    
-
-
-
-
 ### Deliverables for this lab are: 
 
 0. Fill in the questions along the way! 
@@ -59,8 +59,8 @@ What activities are going on in that space? What activity is the robot going to 
 \*\***Sketch and/or take photos of the site(s) you are considering.**\*\*
 ![sites](https://user-images.githubusercontent.com/32082801/218636148-3e348725-e8a6-4924-9ae6-692cdbbf3730.jpg)
 
-\*\***Document the activities being considered.**\*\*
-Following are the activities being considered. These are elaborated in the sketch above.
+\*\***Document the activities being considered.**\*\*  
+Following are the activities being considered. These are elaborated in the sketch above.  
 1. At an airport. This robot could be an escort with your flight details and could help navigate you to the right terminus/ gate.
 2. At a train station - similar to the airport, this will escort the user to their destination.
 3. At a zoo - this escort robot will take you around the zoo and make sure you do not miss your favorite animals at the zoo.
@@ -84,35 +84,46 @@ Think about the setting of the device: is the environment a place where the devi
 Pick one of the custumes and make it with paper or cardboard or any other material!
 
 \*\***Include sketches of what your robot might look like here.**\*\*
-
+![IMG_5089 2](https://user-images.githubusercontent.com/32082801/218638890-74139eb1-ff8b-4cbb-bc55-9bb3eb9199d9.jpg)
 
 \*\***Include photos of your custumed robot here.**\*\*
-![image2](https://user-images.githubusercontent.com/32082801/218637084-3700e782-4e54-4912-aa16-05b9e3b52c89.jpg)[image3](https://user-images.githubusercontent.com/32082801/218637108-f519db50-56e0-426e-a57f-e2ba2771002f.jpg)
+![image2](https://user-images.githubusercontent.com/32082801/218637084-3700e782-4e54-4912-aa16-05b9e3b52c89.jpg)
+![image3](https://user-images.githubusercontent.com/32082801/218637108-f519db50-56e0-426e-a57f-e2ba2771002f.jpg)
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the robot to look?**\*\*
+At this time we have no concerns about the robot’s design other than that the size might be a bit small in this case.
 
 
 ## Part D. Wizard the Robot
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the robot while someone interacts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+HERE!!!!!!!
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-\*\***Show the follow-up work here.**\*\*
+\*\***Show the follow-up work here.**\*\*  
+https://user-images.githubusercontent.com/32082801/218640091-ab6a9a6c-4649-4793-86d1-1a23ef84d073.mov
+
 
 ## Part E. Record
 
-\*\***Take videos of your prototyped interaction.**\*\*
+\*\***Take videos of your prototyped interaction.**\*\*  
+https://drive.google.com/file/d/1ixpdrakYV4ZX44F6jpm0Pg7YsZDhOWA6/view?usp=sharing
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+Our teamates, TAs (love the cloth brought to class!)
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
 Labs are due on Tuesdays before class. Make sure this page is linked to on your main class hub page.
+
+- Setup video: https://drive.google.com/file/d/1R9UWaUHislP9bLnliMLGREI-fNlsQ5Vy/view?usp=sharing
+- Sketches of costumes in other settings: 
+![IMG_5089](https://user-images.githubusercontent.com/32082801/218640866-b95d4035-6743-4c5a-b31c-7e822a0a54e4.jpg)
 
 ### Again, deliverables for this lab are: 
 
