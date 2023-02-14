@@ -43,10 +43,14 @@ E) [Video record the interaction](#part-e-record)
 
 Labs are due on Tuesdays before class. Make sure this page is linked to on your main class hub page.
 
-## Part A. Provide Feedback
+## Part A. Provide Feedback  
 You and your teammates will be assigned lab 1 submissions from one other group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear.
 
-**Summarize feedback your feedback here.**
+**Summarize feedback your feedback here.**  
+
+The scenarios were clearly organized and communicated well. The team got quite creative with the storyboards. I found the bouncerBot and the emergencyBot particularly interesting.   
+
+The lecture from last week on humanoid robots got me thinking about if the bouncerBot would actually be as menacing as a bouncer. All in all, the storyboards are well done and easy to follow. The rest of the lab is also completed and explains what the team did for each step.	
 
 ## Part B. Site the interaction
 
@@ -91,7 +95,8 @@ Pick one of the custumes and make it with paper or cardboard or any other materi
 ![image3](https://user-images.githubusercontent.com/32082801/218637108-f519db50-56e0-426e-a57f-e2ba2771002f.jpg)
 
 
-\*\***What concerns or opportunitities are influencing the way you've designed the robot to look?**\*\*
+\*\***What concerns or opportunitities are influencing the way you've designed the robot to look?**\*\* 
+
 At this time we have no concerns about the robot’s design other than that the size might be a bit small in this case.
 
 
