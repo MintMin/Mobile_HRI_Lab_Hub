@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Qianti Min's-Lab-Hub
 =======
 # Mobile-HRI-Lab-Hub
