@@ -57,6 +57,7 @@ What other people and objects are in that space?
 What activities are going on in that space? What activity is the robot going to be involved in?
 
 \*\***Sketch and/or take photos of the site(s) you are considering.**\*\*
+![sites](https://user-images.githubusercontent.com/32082801/218636148-3e348725-e8a6-4924-9ae6-692cdbbf3730.jpg)
 
 \*\***Document the activities being considered.**\*\*
 
@@ -105,3 +106,4 @@ Labs are due on Tuesdays before class. Make sure this page is linked to on your 
 2. Reflections on the process
 3. Video sketch of 1 prototyped interactions with the costumed device
 4. Submit the items above in the lab2 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
+
