@@ -87,7 +87,7 @@ Pick one of the custumes and make it with paper or cardboard or any other materi
 
 
 \*\***Include photos of your custumed robot here.**\*\*
-![image2](https://user-images.githubusercontent.com/32082801/218637084-3700e782-4e54-4912-aa16-05b9e3b52c89.jpg)![image3](https://user-images.githubusercontent.com/32082801/218637108-f519db50-56e0-426e-a57f-e2ba2771002f.jpg)
+![image2](https://user-images.githubusercontent.com/32082801/218637084-3700e782-4e54-4912-aa16-05b9e3b52c89.jpg)[image3](https://user-images.githubusercontent.com/32082801/218637108-f519db50-56e0-426e-a57f-e2ba2771002f.jpg)
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the robot to look?**\*\*
