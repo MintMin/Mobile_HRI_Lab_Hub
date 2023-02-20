@@ -1,9 +1,9 @@
 # Make the Robot Move
-**List the names and NetID for your partners here.**
-Qianti Min qm45
-Ananya Ganesh ag2227
-Calvin Tirrell cat248
-Jonah Brucker-Cohen jb2662
+**List the names and NetID for your partners here.**  
+Qianti Min qm45  
+Ananya Ganesh ag2227  
+Calvin Tirrell cat248  
+Jonah Brucker-Cohen jb2662  
 
 In this week's lab, you will lay the foundations for your mobile robot. We will control commercially available hoverboards (Dr. Ju bought these on eBay) with ODrive motor controllers. This week's lab can be challenging. Be prepared to get your hands dirty.
 
@@ -300,6 +300,17 @@ Check Canvas discussion channel "Final Project Ideas" for ideas. We posted some 
 ### Again, deliverables for this lab are:
 0. a video showing that you can control the hoverboard through python (functional checkoff. This is just to make sure you have a working set of hardware.)
 
+The initial turns worked as shown in the video.
+https://user-images.githubusercontent.com/32082801/220207186-25766b84-9e6e-462c-907e-a0221637285d.mov
+
+When we tried the following line:
+```python
+# Once your motor stops
+dump_errors(odrv0)
+```
+We got EncoderError under axis 0 as shown in the picture.
+<img width="573" alt="截屏2023-02-20 下午4 11 09" src="https://user-images.githubusercontent.com/32082801/220199047-4fb90c2d-d8f0-49ea-a419-506d3ad0b003.png">
+
 
 1. three sketches of potential robots you can build with this platform (what furniture can you automate?)
 
@@ -308,3 +319,6 @@ We came up with a few ideas of robots that we could build with hover board and p
 ![IMG_5514](https://user-images.githubusercontent.com/32082801/220191553-9eb705db-9cc9-42fd-a81f-9eac7d0ad4e5.jpg)
 ![IMG_5516](https://user-images.githubusercontent.com/32082801/220191564-f7c37cdc-8593-43e8-a154-c76fb0abb6f1.jpg)
 ![CrossWalkBot](https://user-images.githubusercontent.com/32082801/220194698-7a4757fe-3a04-44dc-a917-23d704afb7cb.jpg)
+
+
+
