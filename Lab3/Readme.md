@@ -1,6 +1,9 @@
 # Make the Robot Move
 **List the names and NetID for your partners here.**
-
+Qianti Min qm45
+Ananya Ganesh ag2227
+Calvin Tirrell cat248
+Jonah Brucker-Cohen jb2662
 
 In this week's lab, you will lay the foundations for your mobile robot. We will control commercially available hoverboards (Dr. Ju bought these on eBay) with ODrive motor controllers. This week's lab can be challenging. Be prepared to get your hands dirty.
 
@@ -296,7 +299,10 @@ Check Canvas discussion channel "Final Project Ideas" for ideas. We posted some 
 
 ### Again, deliverables for this lab are:
 0. a video showing that you can control the hoverboard through python (functional checkoff. This is just to make sure you have a working set of hardware.)
+
+
 1. three sketches of potential robots you can build with this platform (what furniture can you automate?)
-
-
-
+We came up with a few ideas of robots that we could build with hover board and picked three designs.
+![IMG_5515](https://user-images.githubusercontent.com/32082801/220191461-b1c7eae8-a338-461b-9907-8b8192966b99.jpg)
+![IMG_5514](https://user-images.githubusercontent.com/32082801/220191553-9eb705db-9cc9-42fd-a81f-9eac7d0ad4e5.jpg)
+![IMG_5516](https://user-images.githubusercontent.com/32082801/220191564-f7c37cdc-8593-43e8-a154-c76fb0abb6f1.jpg)
