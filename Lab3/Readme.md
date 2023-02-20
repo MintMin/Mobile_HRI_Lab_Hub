@@ -302,7 +302,9 @@ Check Canvas discussion channel "Final Project Ideas" for ideas. We posted some 
 
 
 1. three sketches of potential robots you can build with this platform (what furniture can you automate?)
+
 We came up with a few ideas of robots that we could build with hover board and picked three designs.
 ![IMG_5515](https://user-images.githubusercontent.com/32082801/220191461-b1c7eae8-a338-461b-9907-8b8192966b99.jpg)
 ![IMG_5514](https://user-images.githubusercontent.com/32082801/220191553-9eb705db-9cc9-42fd-a81f-9eac7d0ad4e5.jpg)
 ![IMG_5516](https://user-images.githubusercontent.com/32082801/220191564-f7c37cdc-8593-43e8-a154-c76fb0abb6f1.jpg)
+![CrossWalkBot](https://user-images.githubusercontent.com/32082801/220194698-7a4757fe-3a04-44dc-a917-23d704afb7cb.jpg)
