@@ -300,7 +300,7 @@ Check Canvas discussion channel "Final Project Ideas" for ideas. We posted some 
 ### Again, deliverables for this lab are:
 0. a video showing that you can control the hoverboard through python (functional checkoff. This is just to make sure you have a working set of hardware.)
 
-The initial turns worked as shown in the video.
+The initial turns worked as shown in the video:
 https://user-images.githubusercontent.com/32082801/220207186-25766b84-9e6e-462c-907e-a0221637285d.mov
 
 When we tried the following line:
@@ -308,9 +308,9 @@ When we tried the following line:
 # Once your motor stops
 dump_errors(odrv0)
 ```
-We got EncoderError under axis 0 as shown in the picture.
-<img width="573" alt="截屏2023-02-20 下午4 11 09" src="https://user-images.githubusercontent.com/32082801/220199047-4fb90c2d-d8f0-49ea-a419-506d3ad0b003.png">
+We got EncoderError under axis 0 as shown in the picture:
 
+![error msg](https://user-images.githubusercontent.com/32082801/220207335-a955a29b-afd6-41dd-bd94-a892816f9f00.png)
 
 1. three sketches of potential robots you can build with this platform (what furniture can you automate?)
 
