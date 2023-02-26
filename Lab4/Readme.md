@@ -1,5 +1,9 @@
 # Make the robot see
 **List the names and NetID for your partners here.**
+Qianti Min qm45  
+Ananya Ganesh ag2227  
+Calvin Tirrell cat248  
+Jonah Brucker-Cohen jb2662  
 
 Build off of Lab 3 from last week. This week's material can be done rather quickly.
 
