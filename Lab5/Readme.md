@@ -208,6 +208,13 @@ ros2 topic pub -r 10 /joy/set_feedback sensor_msgs/msg/JoyFeedback "{type: 1, id
 Try it! Make your controller rumble!
 
 ** **Come up with three ways where the rumble feature can benefit WoZ deployment or other applications. Describe these in your deliverables.** **
+1) If the robot is near colliding with something (detected via a distance sensor), then the feedback will be shown through the rumbling controller
+2) If the robot needs to be charged, the rumble effect will be a great way to notify the users
+3) The robot sense open wifi it sends a rumble back
+4) More applications with sensors:
+- The robot detects pollution levels - too much smoke, CO2, too much sound, too much light
+- The robot finds earthquake victims trapped in the rubble (Turkey)
+
 
 ## Part D. Map buttons to control
 I have written some code that subscribe to the `/joy` topic and publish a [twist](http://docs.ros.org/en/lunar/api/geometry_msgs/html/msg/Twist.html) message accordingly. A twist message consists of two vectors, one represents linear velocity and one represents angular velocity.
