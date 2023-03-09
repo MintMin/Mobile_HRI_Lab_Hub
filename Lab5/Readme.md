@@ -1,9 +1,9 @@
 # Give the robot moves
 **List the names and NetID for your partners here.**
 
-Now, let's controll over robot through some more intuitive ways. 
+Now, let's control our robots to make them move intuitively. 
 
-As you can see, it's pretty easy to control the wheels with python! However, it's not easy for us as humans to command a robot while thinking in terms of individual wheel velocity. If you are a gamer, you might be pretty familiar with controlling avatars with joystick controllers or keyboard keys (WASD). In today's lab, let's map joystick controller commands to wheel velocities in python.
+As you have seen, it's pretty easy to control the wheels with Python! However, it's not easy for us as humans to move the robot in ways that feel right while thinking in terms of individual wheel velocity. If you are a gamer, you might be pretty familiar with controlling avatars with joystick controllers or keyboard keys (WASD). In today's lab, let's map joystick controller commands to wheel velocities in Python.
 
 ## Prep
 
@@ -11,14 +11,16 @@ As you can see, it's pretty easy to control the wheels with python! However, it'
 1. Your Computer
 2. Joystick Controller
 3. Your set of hoverboard + ODrive
+4. (optional) Cardboard to make the proto-chassis for your robot
 
 ### Deliverables for this lab are: 
 
-0. Videos of you controlling the wheels with your joystick controller properly.
-1. Three ideas on how to use controllers' rumble feature for Wizard of Oz.
+1. Videos of you controlling the wheels with your joystick controller properly.
+2. Three ideas on how to use controllers' rumble feature for Wizard of Oz control.
+3. (optional) Documentation of the robot proto-chassis
 
 ### The Report 
-This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
+This README.md page in your own repository should be edited to include both the work you have done, and your thinking behind the work(the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
 
 ## Lab Overview
 For this assignment, you are going to:
@@ -29,14 +31,18 @@ B) [Read Messages from Joystick](#part-b-read-messages-from-Joystick)
 
 C) [Make it rumble](#part-c-make-it-rumble)
 
-C) [Map buttons to control](#part-d-map-buttons-to-control)
+D) [Map buttons to control](#part-d-map-buttons-to-control)
 
-D) [Try it with your hoverboard!](#part-e-try-it-with-your-hoverboard!) 
+E) [Try it with your hoverboard!](#part-e-try-it-with-your-hoverboard!) 
+
+F) (optional) [Mount your wheels to a prototype chassis](#part-f-mount-your-wheels-to-chassis)
 
 Labs are due on Tuesdays before class. Make sure this page is linked to on your main class hub page.
 
 ## Part A. Connect Joystick Controller to RPi
-Our wireless joystick controller connets to RPi through Bluetooth. If you are an old school terminal person, you can register your joystick through command line via `bluetoothctl`([tutorial](https://www.makeuseof.com/manage-bluetooth-linux-with-bluetoothctl/)).
+Our wireless joystick controller connects to RPi through Bluetooth. 
+
+If you are an old school terminal person, you can register your joystick through the command line via `bluetoothctl`([tutorial](https://www.makeuseof.com/manage-bluetooth-linux-with-bluetoothctl/)).
 
 It is much easier to pair a bluetooth device in VNC viewer. 
 1. Login to VNC viewer.
@@ -49,11 +55,11 @@ sudo apt install blueman # not the musical group, it is short for bluetooth mana
 3. Open bluetooth management
 <img src="Images/blueman.jpg" width="600"/>
 4. Open your joystick controller and boot it to wireless pairing mode. Instructions are printed on the back of the box.
-5. While your controller is double flashing, click the search button in the bluetooth manager. You should be able to find your controller.  Right click on the controller and select connect. Once connected, your controller LED should turn blue.
+5. While your controller is double-flashing, click the search button in the bluetooth manager. You should be able to find your controller.  Right-click on the controller and select Connect. Once connected, your controller LED should turn blue.
 <img src="Images/blueman_manager.jpg" width="600"/>
 
 ## Part B. Read Messages from Joystick
-Now, you successfully paired your controller with your RPi. Let's access the values through ROS 2.
+Now, you have successfully paired your controller with your RPi. Let's access the values from the Joystick through ROS 2.
 
 Open a terminal (either in VNC viewer or a local terminal that ssh to your RPi)
 ```bash
@@ -61,7 +67,7 @@ ros2 run joy joy_node
 # You should see somthing like the following:
 # [INFO] [1677696499.194657745] [joy_node]: Opened joystick: Wireless Controller.  deadzone: 0.050000
 ```
-ROS 2 comes with a default package, `joy`, to communicate with joystick controllers. Recall in Lab 0, you wrote your own publisher to publish a string under the topic `hri_topic`. The Joy package read values from your controller and publish your input under a specific topic. `joy_node` is the name of the executable that is actually linked to the underlying python script. They are defined in the `setup.py`. Now, let's find out which topic it is!
+ROS 2 comes with a default package, `joy`, to communicate with joystick controllers. Recall that in Lab 0, you wrote your own publisher to publish a string under the topic `hri_topic`. The Joy package reads values from your controller and publishes your input under a specific topic. `joy_node` is the name of the executable that is actually linked to the underlying python script. They are defined in the `setup.py`. Now, let's find out which topic the joystick sends messages to!
 
 <details closed>
 <summary>More on `joy_node`</summary>
@@ -96,10 +102,10 @@ setup(
     },
 )
 ```
-In the `entry_point` section, we defined two entry points `talker` and `listener` to the main functions we wrote in python files. We are basically creating a shortcut for ROS 2 to find our code easily. Of course, we can also execute those functions directly through the command `python3` instead of `ros2`. This is just a good practice to keep your code clean.
+In the `entry_point` section, we defined two entry points, `talker` and `listener` to the main functions we wrote in Python files. We are basically creating a shortcut for ROS 2 to find our code easily. Of course, we can also execute those functions directly through the command `python3` instead of `ros2`. This is just a good practice, to keep your code clean.
 </details>
 
-Leave the previous terminal running, and open a new terminal terminal
+Leave the previous terminal running, and open a new terminal window:
 ```python
 ros2 topic list
 # You should see the following
@@ -110,7 +116,7 @@ ros2 topic list
 /rosout
 '''
 ```
-Let's see what's actually being published under the topic `/joy`. We will talk about `/joy/set_feedback` later. In the same terminal,
+Let's see what's actually being published under the topic `/joy`. We will talk about `/joy/set_feedback` later. In the same terminal, enter
 ```
 ros2 topic echo /joy
 ```
@@ -152,11 +158,11 @@ As you can see, all axes values are **continuous floats**, and all button values
 
 
 ## Part C. Make it rumble!
-Modern joystick controllers are not just simple input devices. They can also provide feedback to users through vibration (pretty common in shooting or racing games). In fact, tactile feedback can also carry rich information and is already ubiquitous (e.g. your phone provides plenty of tactile feedback to you).
+Modern joystick controllers are not just simple input devices. They can also provide feedback to Wizard-users through haptic vibration (pretty common in shooting or racing games). In fact, tactile feedback can also carry rich information and is already ubiquitous (e.g. your phone provides plenty of tactile feedback to you).
 
-If you are interested in controlling your robot through Wizard-of-Oz, it is worth considering what feedback you want to provide to the wizard. Of course, visual feedback is always important: the wizard needs to see the surrouding of the robot they are controlling. Beyond that, a touch of vibration would make the whole interaction more interesting. For example, you can make the joystick rumble when a person is near the robot.
+If you are interested in controlling your robot through Wizard-of-Oz, it is worth considering what feedback you want to provide to the wizard. Of course, visual feedback is always important: the wizard needs to see the surroundings of the robot they are controlling. Beyond that, a touch of vibration would make the whole interaction more interesting. For example, you can make the joystick rumble when a person is near the robot.
 
-To make the controller rumble, we will make use of the `/joy/set_feedback` topic. You have seen it ealier when you ran `ros2 topic list`. It is also provided by the `Joy` package. First, let's check out what kind of message this topic is expecting. We can use the command `ros2 topic info [TOPIC_NAME]` to inspect any active topic.
+To make the controller rumble, we will make use of the `/joy/set_feedback` topic. You have seen it earlier when you ran `ros2 topic list`. It is also provided by the `Joy` package. First, let's check out what kind of message this topic is expecting. We can use the command `ros2 topic info [TOPIC_NAME]` to inspect any active topic.
 
 ```bash
 ros2 topic info /joy/set_feedback
@@ -185,9 +191,9 @@ uint8 id
 # actually binary, driver should treat 0<=x<0.5 as off, 0.5<=x<=1 as on.
 float32 intensity
 ```
-A JoyFeedback message contains three field, type, id, and intensity. The type parameter specifies what kind of feedback we are dealing with. In our case, we want `TYPE_RUMBLE`. We we have multiple feedback devices, you want to specify which device you are talking about through `id`. We can go with default 0 for now. For intensity, note that it is a number between 0 and 1. 
+A JoyFeedback message contains three field, type, id, and intensity. The type parameter specifies what kind of feedback we are dealing with. In our case, we want `TYPE_RUMBLE`. When we have multiple feedback devices, we want to specify which device we are talking about through `id`. We can go with default 0 for now. Note that intensity is defined as a number between 0 and 1. 
 
-Now, let's publish some messages to the topic `/joy/set_feedback`. To be honest, I feel lazy now. I don't want to write an entire package, just like what we did in lab0, to publish a simple string. I want a quick and dirty way to debug and prototype. Luckily, ROS comes with plenty of command line tools to make your life easier. 
+Now, let's publish some messages to the topic `/joy/set_feedback`. To be honest, I feel lazy now. I don't want to write an entire package, like what we did in Lab0, to publish a simple string. I want a quick-and-dirty way to debug and prototype. Luckily, ROS comes with plenty of command-line tools to make our lives easier. 
 
 To publish messages to a topic through command line, use the following syntax:
 ```
@@ -213,13 +219,30 @@ cd ~
 mkdir -p ~/mobilehri_ws/src
 cd ~/mobilehri_ws/src
 git clone https://github.com/FAR-Lab/mobilehri2023.git 
+cd ~/mobilehri_ws
+colcon build
+# Ignore the warnings. You should see the following.
+# Summary: 3 packages finished [16.5s]
+# 3 packages had stderr output: joy_teleop_keymapping mobile_robot_control picamera
 ```
+Take a look at `~/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping/joy_teleop_keymapping/keymapping_node.py`.
+Pay attention to how the values are accessed from joystick controller and map to a twist message. 
+```
+source install/setup.batch
+ros2 launch joy_teleop_keymapping mapping_launch.py
+```
+We start two nodes, the `joy` node from the previous section, and a `keymapping` node (that I wrote) to map joystick commands to twist messages (under `/cmd_vel`). We only concern overselves with the forward x-axis of linear velocity and upward z-axis of the angular velocity. (Why? Think about all the possible movements of a hoverboard.) 
+```
+# In a new terminal
+ros2 topic echo /cmd_vel
+# Hold down L1 button, then play with your joysticks to see what happens.
+```
+We defined the L1 button to be the safety button to avoid unintentional control, this is a simple `if` statement in the code.
 
-
-> Feel free to customize my code however you want. There are so many buttons and triggers on the controller, be creative!
+> Feel free to customize my code (`~/mobilehri_ws/src/mobilehri2023/joy_teleop_keymapping/joy_teleop_keymapping/keymapping_node.py`) however you want. There are so many buttons and triggers on the controller, be creative!
 
 ## Part E. Try it with your hoverboard!
-Let's do some math! This is probably the only math you will do all semester. In the previous step, we mapped joystick controller commands to a message type called twist (mainly linear velocity and angular velocity). We need another layer of computation to convert twist to commands that ODrive understands (angular velocity for wheels on each axis). Imagine the following simplified diagram. 
+Let's do some math! (This is probably the only math you will do all semester, so a highlight of the course.) In the previous step, we mapped joystick controller commands to a message type called twist (mainly linear velocity and angular velocity). We need another layer of computation to convert twist to commands that ODrive understands (angular velocity for wheels on each axis). Imagine the following simplified diagram. 
 
 In this problem, the following variables are known
 - $v$: robot linear velocity 
@@ -287,12 +310,21 @@ As your system scales up, you will run many nodes and define many parameters.
 ROS 2 launch files are designed to help you organize your program execution and make start up process efficient.
 
 If you take a look at `mobile_robot_launch.py` in `mobile_robot_control/launch/`, you will notice that we started three nodes in this file. If we do not have this launch file, we need to open three terminals and run `ros2 run` on each node.
+    
+The `joy_node` reads in controller commands, the `joy_teleop_keymapping_node` map controller commands to twist message (under topic `cmd_vel`), and the `mobile_robot_control_node` convert twist messages to individual wheel velocity through the math derivation above.
 
 </details>
 
 Now, press and hold `L1` on your controller and play with the two joysticks. Hopefully your wheels will start spinning now!
+## Part F. Mount Your Wheels To Chassis
+(Optional, but will be required by next week if you don't get to it)
+
+Using the honeycomb cardboard, hot-glue and zip ties, mount the hub motor wheels to a robot chassis so that you can control the robot while it rolls around on the ground. 
+
+Include pictures/videos of your moving robot chassis.
 
 ### Again, deliverables for this lab are: 
 
-0. Videos of you controlling the wheels with your joystick controller properly.
-1. Three ideas on how to use controllers' rumble feature for Wizard of Oz.
+1. Videos of you controlling the wheels with your joystick controller properly.
+2. Three ideas on how to use controllers' rumble feature for Wizard of Oz.
+3. (optional) Documentation of the robot proto-chassis
