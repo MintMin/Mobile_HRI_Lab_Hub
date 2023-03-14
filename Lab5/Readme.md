@@ -332,6 +332,16 @@ Include pictures/videos of your moving robot chassis.
 
 ### Again, deliverables for this lab are: 
 
-1. Videos of you controlling the wheels with your joystick controller properly.
+1. Videos of you controlling the wheels with your joystick controller properly.  
+https://user-images.githubusercontent.com/32082801/224881066-0b7dcb07-43f7-4ad9-970d-3bb6b5243532.mov
+
 2. Three ideas on how to use controllers' rumble feature for Wizard of Oz.
+Please see the ideas writted in Part C
+
 3. (optional) Documentation of the robot proto-chassis
+
+
+
+
+
+
