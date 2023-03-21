@@ -99,8 +99,25 @@ To visualize your LiDAR reading, open foxglove studio in vnc viewer. Then, click
 ### Again, deliverables for this lab are: 
 
 0. Photos of your robot prototype
+[----------]
 1. A video of your robot moving around
+- Testing the wheels
+https://user-images.githubusercontent.com/32082801/226504755-7832dde6-56df-444c-a278-04d38c50f9d7.mov
+- Forst move!
+https://user-images.githubusercontent.com/32082801/226504753-3fd6e0c7-3c58-4ff1-9c59-51c19b1580a7.mov
+- Moving....
+https://drive.google.com/file/d/17W5t3W3yKhHHLK-1u9SKWv86DSj87ncm/view?usp=sharing
+
+
 2. A sketch of a series movements based on your final project
+[----------]
 3. A video showing your robot perform the movements in 2.
+[----------]
 4. Reflect upon your design, what would you do differently?
+- Build a sturdier body for the electronics
+  - Try foam
+  - Try wood
+- Modify the velocity of the wheels, so the initial velocity could be smoother. The initial jolt causes the cardboard body to flip and move unexpectedly. This is not sturdy enough for the electronics. 
+
+
 
