@@ -1,6 +1,11 @@
 # Choreographing Movement
 **List the names and NetID for your partners here.**
 
+Qianti Min qm45  
+Ananya Ganesh ag2227  
+Calvin Tirrell cat248  
+Jonah Brucker-Cohen jb2662  
+
 It is about time to have a functioning mobile robot! Starting from this lab, you should prioritize either robot building and/or study design. 
 
 ## Prep
