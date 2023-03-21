@@ -102,9 +102,16 @@ To visualize your LiDAR reading, open foxglove studio in vnc viewer. Then, click
 [----------]
 1. A video of your robot moving around
 - Testing the wheels
-https://user-images.githubusercontent.com/32082801/226504755-7832dde6-56df-444c-a278-04d38c50f9d7.mov
-- Forst move!
-https://user-images.githubusercontent.com/32082801/226504753-3fd6e0c7-3c58-4ff1-9c59-51c19b1580a7.mov
+https://user-images.githubusercontent.com/32082801/226505437-4e8230b8-80cf-4834-b684-75c1d82c4f59.mov
+
+- First move!
+
+
+
+https://user-images.githubusercontent.com/32082801/226505496-6fe093a8-2a9b-4baf-af24-3bf3b572505d.MOV
+
+
+
 - Moving....
 https://drive.google.com/file/d/17W5t3W3yKhHHLK-1u9SKWv86DSj87ncm/view?usp=sharing
 
@@ -113,6 +120,10 @@ https://drive.google.com/file/d/17W5t3W3yKhHHLK-1u9SKWv86DSj87ncm/view?usp=shari
 [----------]
 3. A video showing your robot perform the movements in 2.
 [----------]
+
+
+
+
 4. Reflect upon your design, what would you do differently?
 - Build a sturdier body for the electronics
   - Try foam
