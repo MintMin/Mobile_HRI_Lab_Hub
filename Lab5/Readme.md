@@ -1,6 +1,11 @@
 # Give the robot moves
 **List the names and NetID for your partners here.**
 
+Qianti Min qm45  
+Ananya Ganesh ag2227  
+Calvin Tirrell cat248  
+Jonah Brucker-Cohen jb2662  
+
 Now, let's control our robots to make them move intuitively. 
 
 As you have seen, it's pretty easy to control the wheels with Python! However, it's not easy for us as humans to move the robot in ways that feel right while thinking in terms of individual wheel velocity. If you are a gamer, you might be pretty familiar with controlling avatars with joystick controllers or keyboard keys (WASD). In today's lab, let's map joystick controller commands to wheel velocities in Python.
