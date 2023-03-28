@@ -104,30 +104,25 @@ To visualize your LiDAR reading, open foxglove studio in vnc viewer. Then, click
 ### Again, deliverables for this lab are: 
 
 0. Photos of your robot prototype
-[----------]
+![IMG_7167](https://user-images.githubusercontent.com/32082801/228095578-57850414-2ceb-42fc-a55d-baf02e22b0be.jpg)
+
 1. A video of your robot moving around
 - Testing the wheels
 https://user-images.githubusercontent.com/32082801/226505437-4e8230b8-80cf-4834-b684-75c1d82c4f59.mov
 
 - First move!
-
-
-
 https://user-images.githubusercontent.com/32082801/226505496-6fe093a8-2a9b-4baf-af24-3bf3b572505d.MOV
-
-
 
 - Moving....
 https://drive.google.com/file/d/17W5t3W3yKhHHLK-1u9SKWv86DSj87ncm/view?usp=sharing
 
 
 2. A sketch of a series movements based on your final project
-[----------]
+![IMG_7168](https://user-images.githubusercontent.com/32082801/228095588-ca0de6c3-1c0d-44b5-ab9a-d51a15660a81.jpg)
+![IMG_7169](https://user-images.githubusercontent.com/32082801/228095592-02c4412a-ffb9-40ad-9b3d-86320fa53191.jpg)
+
 3. A video showing your robot perform the movements in 2.
-[----------]
-
-
-
+Please see the videos in the end (when we build a sturdier body with extra wheels)
 
 4. Reflect upon your design, what would you do differently?
 - Build a sturdier body for the electronics
@@ -135,5 +130,20 @@ https://drive.google.com/file/d/17W5t3W3yKhHHLK-1u9SKWv86DSj87ncm/view?usp=shari
   - Try wood
 - Modify the velocity of the wheels, so the initial velocity could be smoother. The initial jolt causes the cardboard body to flip and move unexpectedly. This is not sturdy enough for the electronics. 
 
+### Improvement:
+We added two more wheels to make the robot move in a more balanced way.
+![IMG_6954](https://user-images.githubusercontent.com/32082801/228096482-679a6eca-e6e0-4eaa-aa5f-f4393f7bc7d2.JPG)
 
+It worked very well!
+Here is the video of robot dancing around, as drew in the sketch:
+https://drive.google.com/file/d/1Ko9Zt-yNPlVsPmMmM11UK6opU5ULNM9U/view?usp=sharing
+
+
+
+
+
+
+
+
+https://user-images.githubusercontent.com/32082801/228096528-00719361-436a-4575-8062-af81ca9f61fe.MOV
 
