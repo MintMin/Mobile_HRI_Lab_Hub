@@ -119,9 +119,13 @@ Be mindful of the others around you. Be safe.
 
 
 1. Before/after sketches of your robot interacting with people
+![sketch](https://user-images.githubusercontent.com/32082801/230128717-ab02b1df-094a-42de-b699-760b42bba8e2.jpg)
+
 2. A video sketch of your designed interaction
 3. Videos trying out elicited interactions
 4. Before/after sketch of your robot interacting with people through motion and voice
+![sketch with motion](https://user-images.githubusercontent.com/32082801/230128791-cd8c46a8-7aa2-4c16-9e07-8a8652270fe1.jpg)
+
 5. A video sketch of your designed interaction
 6. Videos trying out elicited verbal interaction
 
