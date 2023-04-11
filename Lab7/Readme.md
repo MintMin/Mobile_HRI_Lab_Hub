@@ -1,7 +1,12 @@
 # Interact with with people + chatty robot
 
 
-**List the names and NetID for your partners here.**
+**List the names and NetID for your partners here.
+
+Qianti Min qm45
+Ananya Ganesh ag2227
+Calvin Tirrell cat248
+Jonah Brucker-Cohen jb2662
 
 
 In this lab, let's try out some moves with our robots and make them talk!
