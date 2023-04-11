@@ -133,7 +133,7 @@ Be mindful of the others around you. Be safe.
 ### Our Feedback:
 
 1. The speaker works only without the motion-controlling system 
-- the volume of the speaker is low even when we adjust it to maximum
+- the volume of the speaker is low even when we adjust it to maximum  
 https://drive.google.com/file/d/1wYot9_NBTfHrmmH22PN0trU-OmqvmVLH/view?usp=sharing
 
 2. We got tons of errors when the speaker interfering with motion
@@ -142,7 +142,7 @@ https://drive.google.com/file/d/1wYot9_NBTfHrmmH22PN0trU-OmqvmVLH/view?usp=shari
 ![Screenshot 2023-04-05 at 12 14 14 PM](https://user-images.githubusercontent.com/32082801/231191979-178e3f52-cdc3-4e36-835a-bc50a7730b2a.png)
 
 3. The robot still moves...but in an AGGRESSIVE way (videos highly recommended!!!)
-- The robot is highly sensitive to joystick movements, responding even to small changes
+- The robot is highly sensitive to joystick movements, responding even to small changes  
 https://drive.google.com/file/d/1XoZRgBpjG7P-Kzh3XNtBHL0kq4SKDSuM/view?usp=share_link
-- Its speed is also dangerously high, causing it to collide with walls and obstacles. We suspect that the issue may be related to the watchdog code
+- Its speed is also dangerously high, causing it to collide with walls and obstacles. We suspect that the issue may be related to the watchdog code  
 https://drive.google.com/file/d/1Ny5N47QGbkkt_0Kh2q__kygiYCe6-sw7/view?usp=sharing
